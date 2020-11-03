@@ -1,0 +1,110 @@
+/* RESPONSIVENESS MEDIA QUERIES*/
+/* smartphones */
+@media screen and (max-width: 500px) {
+  .menus {
+    padding-bottom: 15rem;
+  }
+
+  .about {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    background-color: black;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .menu {
+    position: fixed;
+    top: 0;
+    width: 100vw;
+    opacity: 0.9; /* for transparency*/
+    visibility: hidden;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .nav-link {
+    font-size: 0.7rem;
+  }
+  .portrait {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+  }
+
+  .menu-btn {
+    position: absolute;
+    z-index: 3;
+    right: 14.8rem;
+    top: 3rem;
+    align-self: flex-start;
+    cursor: pointer;
+    transition: all 1s ease-out;
+  }
+
+  .menu-nav {
+    margin: 0;
+    padding: 0;
+    background: rgba(30, 40, 30, 0.85);
+    list-style: none;
+    /* translate 3d to make it flow from the top */
+    transform: translate3d(0, -100%, 0);
+    transition: all 1s ease-out;
+  }
+
+  .menu .show {
+    /* slide from top */
+    transform: translate3d(0, 0, 0);
+  }
+
+  .intro {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 50rem;
+  }
+  .bio {
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    height: 50vh;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .services {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    height: 100vh;
+    margin: 2rem;
+  }
+
+  .section-footer .container {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    padding-left: 4rem;
+  }
+
+  .lg-heading {
+    color: var(--tertiary-color);
+    margin-top: 5rem;
+    margin-bottom: 0;
+    font-size: 2rem;
+  }
+
+  .sm-heading {
+    font-size: 1rem;
+  }
+
+  .bio-image {
+    display: none;
+  }
+}
+
+/* tablets and small laptops */
+@media screen and (min-width: 769px) and (max-width: 1170px) {
+}
+
+/* desktops and laptops */
+@media screen and (min-width: 1171px) {
+}

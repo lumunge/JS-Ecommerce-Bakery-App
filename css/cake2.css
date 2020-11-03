@@ -1,0 +1,79 @@
+/* RESPONSIVENESS MEDIA QUERIES*/
+/* smartphones */
+@media screen and (max-width: 500px) {
+  .menus {
+    padding-bottom: 15rem;
+  }
+
+  .about {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    background-color: black;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .menu {
+    position: fixed;
+    top: 0;
+    width: 100vw;
+    opacity: 0.9; /* for transparency*/
+    visibility: hidden;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .nav-link {
+    font-size: 0.7rem;
+  }
+  .portrait {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+  }
+
+  .menu-btn {
+    position: absolute;
+    z-index: 3;
+    right: 35px;
+    top: 3rem;
+    align-self: flex-start;
+    cursor: pointer;
+    transition: all 1s ease-out;
+  }
+
+  .menu-nav {
+    margin: 0;
+    padding: 0;
+    background: rgba(30, 40, 30, 0.85);
+    list-style: none;
+    /* translate 3d to make it flow from the top */
+    transform: translate3d(0, -100%, 0);
+    transition: all 1s ease-out;
+  }
+
+  .menu .show {
+    /* slide from top */
+    transform: translate3d(0, 0, 0);
+  }
+
+  .section-footer .container {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    padding-left: 4rem;
+  }
+  .banner-title {
+    font-size: 1.4rem;
+    text-transform: uppercase;
+    letter-spacing: var(--mainSpacing);
+    margin-bottom: 3rem;
+  }
+}
+
+/* tablets and small laptops */
+@media screen and (min-width: 769px) and (max-width: 1170px) {
+}
+
+/* desktops and laptops */
+@media screen and (min-width: 1171px) {
+}

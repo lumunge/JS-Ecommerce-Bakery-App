@@ -1,0 +1,123 @@
+{
+  "items": [
+    {
+      "sys": { "id": "1" },
+      "fields": {
+        "title": "Conf1",
+        "price": 77.99,
+        "image": {
+          "fields": {
+            "file": {
+              "url": "img/conf0.jpg"
+            }
+          }
+        }
+      }
+    },
+
+    {
+      "sys": { "id": "2" },
+      "fields": {
+        "title": "Conf2",
+        "price": 24.57,
+        "image": {
+          "fields": {
+            "file": {
+              "url": "img/conf2.jpg"
+            }
+          }
+        }
+      }
+    },
+
+    {
+      "sys": { "id": "3" },
+      "fields": {
+        "title": "Conf3",
+        "price": 33.33,
+        "image": {
+          "fields": {
+            "file": {
+              "url": "img/conf3.jpg"
+            }
+          }
+        }
+      }
+    },
+
+    {
+      "sys": { "id": "4" },
+      "fields": {
+        "title": "Conf4",
+        "price": 10.99,
+        "image": {
+          "fields": {
+            "file": {
+              "url": "img/conf4.jpeg"
+            }
+          }
+        }
+      }
+    },
+
+    {
+      "sys": { "id": "5" },
+      "fields": {
+        "title": "Conf5",
+        "price": 50.47,
+        "image": {
+          "fields": {
+            "file": {
+              "url": "img/conf5.jpg"
+            }
+          }
+        }
+      }
+    },
+
+    {
+      "sys": { "id": "6" },
+      "fields": {
+        "title": "Conf6",
+        "price": 15.23,
+        "image": {
+          "fields": {
+            "file": {
+              "url": "img/conf6.jpg"
+            }
+          }
+        }
+      }
+    },
+
+    {
+      "sys": { "id": "7" },
+      "fields": {
+        "title": "Conf7",
+        "price": 35.47,
+        "image": {
+          "fields": {
+            "file": {
+              "url": "img/conf7.jpg"
+            }
+          }
+        }
+      }
+    },
+
+    {
+      "sys": { "id": "8" },
+      "fields": {
+        "title": "Conf8",
+        "price": 12.2,
+        "image": {
+          "fields": {
+            "file": {
+              "url": "img/conf8.jpg"
+            }
+          }
+        }
+      }
+    }
+  ]
+}
