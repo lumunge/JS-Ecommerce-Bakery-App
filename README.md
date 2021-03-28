@@ -1,5 +1,5 @@
-# caroBakery
-Caro bakery Cakes and Confectionaries with Nodejs Localstorage and Vanilla Javascript
+# Bakery App
+A ecommerce bakery online store that sells cakes, made with vanilla js, local storage and node js
 
 A Preview of the Project
 The Menu
